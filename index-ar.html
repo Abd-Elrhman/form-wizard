@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>task</title>
+		<link
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-ar.css">
+
+	</head>
+	<body oncontextmenu="return false" class="snippet-body">
+		
+		<!-- MultiStep Form -->
+		<div class="container-fluid" id="grad1">
+			<div class="row justify-content-center mt-0">
+				<div
+					class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2"
+				>
+					<div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+            <div>
+              <a href="index.html" class="badge badge-pill badge-info">English</a>
+              <h2><strong>فورم متعددة المراحل</strong></h2>
+            </div>
+							<div class="col-md-12 mx-0">
+								<form id="msform">
+									<!-- progressbar -->
+									<ul id="progressbar">
+										<li class="active" id="account">
+											<strong>الحساب</strong>
+										</li>
+										<li id="personal"><strong>شخصي</strong></li>
+										<li id="payment"><strong>الاتصال</strong></li>
+										<li id="confirm"><strong>النهاية</strong></li>
+									</ul>
+
+									<!-- fieldsets -->
+									<fieldset>
+										<div class="form-card">
+											<h2 class="fs-title">معلومات الحساب</h2>
+											<input
+												type="text"
+												name="fname"
+												placeholder="الاسم الاول"
+											/>
+											<input type="text" name="lname" placeholder="الاسم الاخير" />
+										</div>
+										<input
+											type="button"
+											name="next"
+											class="next action-button"
+											value="التالي"
+										/>
+									</fieldset>
+
+									<fieldset>
+										<div class="form-card">
+											<h2 class="fs-title">معلومات الاتصال</h2>
+											<input type="email" name="email" placeholder="البريد الالكتروني" />
+											<input
+												type="number"
+												name="phno"
+												placeholder="الهاتف"
+											/>
+										</div>
+										<input
+											type="button"
+											name="previous"
+											class="previous action-button-previous"
+											value="السابق"
+										/>
+										<input
+											type="button"
+											name="next"
+											class="next action-button"
+											value="التالي"
+										/>
+									</fieldset>
+
+									<fieldset>
+										<div class="form-card">
+											<h2 class="fs-title">معلومات التسجيل</h2>
+											<input type="text" name="uname" placeholder="اسم المستخدم" />
+											<input
+												type="password"
+												name="pwd"
+												placeholder="كلمة المرور"
+											/>
+											<input
+												type="password"
+												name="cpwd"
+												placeholder="تأكيد كلمة المرور"
+											/>
+										</div>
+										<input
+											type="button"
+											name="next"
+											class="next action-button"
+											value="التالي"
+										/>
+									</fieldset>
+
+									<fieldset>
+										<div class="form-card">
+											<h2 class="fs-title text-center">تمت بنجاح</h2>
+											<br /><br />
+											<div class="row justify-content-center">
+												<div class="col-3">
+													<img
+														src="https://img.icons8.com/color/96/000000/ok--v2.png"
+														class="fit-image"
+													/>
+												</div>
+											</div>
+											<br /><br />
+											<div class="row justify-content-center">
+												<div class="col-7 text-center">
+													<h5>تمت العملية بنجاح</h5>
+												</div>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
